@@ -69,3 +69,13 @@ button:hover {
     padding: 20px;
     background-color: #ddd;
 }
+.animated-image {
+    width: 150px;  /* Taille des images */
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.animated-image:hover {
+    transform: scale(1.1) rotate(5deg);
+}
