@@ -11,3 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    const images = document.querySelectorAll(".animated-image");
+
+    images.forEach(img => {
+        setInterval(() => {
+            img.style.transform = `scale(${1 + Math.random() * 0.2}) rotate(${(Math.random() - 0.5) * 10}deg)`;
+        }, 3000);
+    });
+});
