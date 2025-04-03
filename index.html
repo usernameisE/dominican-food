@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Dominicain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue au Restaurant Dominicain</h1>
+        <nav>
+            <ul>
+                <li><a href="#entrees">Entrées</a></li>
+                <li><a href="#plats">Plats</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#boissons">Boissons</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="menu">
+        <h2>Notre Menu</h2>
+
+        <div class="categorie" id="entrees">
+            <h3>Entrées</h3>
+            <div class="menu-item">
+                <h4>Chicharrón</h4>
+                <p>Porc frit croustillant</p>
+                <span>6€</span>
+                <button>Commander</button>
+            </div>
+            <div class="menu-item">
+                <h4>Tostones</h4>
+                <p>Bananes plantains frites</p>
+                <span>5€</span>
+                <button>Commander</button>
+            </div>
+        </div>
+
+        <div class="categorie" id="plats">
+            <h3>Plats</h3>
+            <div class="menu-item">
+                <h4>La Bandera</h4>
+                <p>Riz, haricots rouges, viande</p>
+                <span>10€</span>
+                <button>Commander</button>
+            </div>
+        </div>
+
+        <div class="categorie" id="desserts">
+            <h3>Desserts</h3>
+            <div class="menu-item">
+                <h4>Flan dominicain</h4>
+                <p>Crème caramel</p>
+                <span>4€</span>
+                <button>Commander</button>
+            </div>
+        </div>
+
+        <div class="categorie" id="boissons">
+            <h3>Boissons</h3>
+            <div class="menu-item">
+                <h4>Morir Soñando</h4>
+                <p>Jus d’orange et lait</p>
+                <span>3€</span>
+                <button>Commander</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
